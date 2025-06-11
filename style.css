@@ -104,7 +104,21 @@ p {
   height: auto;
   border: 5px solid var(--secondary-color);
 }
+
+.about-image {
+  border-radius: 0.25rem;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid var(--secondary-color);
+}
+
 .image:hover {
+  transform: scale(1.1);
+  box-shadow: var(--box-shadow);
+}
+
+.about-image:hover {
   transform: scale(1.1);
   box-shadow: var(--box-shadow);
 }
@@ -161,4 +175,34 @@ a {
   text-align: center;
   font-size: 18px;
   font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    width: 450px;
+    justify-content: space-between;
+    justify-content: center;
+  }
+  .about-image:hover {
+    transform: none;
+  }
+  .image {
+    display: none;
+  }
+  .image:hover {
+    transform: none;
+  }
+  .about {
+    justify-content: center;
+    font-size: 18px;
+  }
+  .third-link {
+    justify-content: center;
+    display: block;
+    text-align: center;
+  }
+
+  .contact-link {
+    font-size: 10px;
+  }
 }
