@@ -179,11 +179,13 @@ a {
 
 .work-h1 {
   font-size: 45px;
+  padding-top: 20px;
 }
 
 .work-h2 {
   color: grey;
   font-size: 25px;
+  padding-bottom: 30px;
 }
 .col {
   justify-content: center;
@@ -208,13 +210,37 @@ a {
   cursor: pointer;
 }
 
-.footer-container {
-  border-color: black;
+div.footer-container {
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.footer-text {
+  padding-bottom: 20px;
+  color: grey;
 }
 
 .btn.btn-secondary {
-  align-items: center;
   background-color: var(--primary-color);
+  width: 130px;
+  display: block;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.icon {
+  width: 45px;
+  margin: 20px;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.footer-email {
+  text-decoration: none;
+  color: black;
+}
+.footer-email:hover {
+  color: var(--primary-color);
 }
 
 @media (max-width: 768px) {
