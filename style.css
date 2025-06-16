@@ -177,6 +177,37 @@ a {
   font-family: "Times New Roman", Times, serif;
 }
 
+.work-h1 {
+  font-size: 45px;
+}
+
+.work-h2 {
+  color: grey;
+  font-size: 25px;
+}
+.col {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.btn.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn.btn-primary:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-color: var(--secondary-color);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   .about-image {
     width: 450px;
